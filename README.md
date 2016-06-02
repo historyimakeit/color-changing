@@ -1,1 +1,18 @@
-# color-changing
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Make a Color Picker</title>
+
+    <link rel="stylesheet" href="main.css" media="screen" charset="utf-8">
+  </head>
+  <body>
+    <div id="color-picker">
+      <button class="red" onclick="setColor('red');"></button>
+      <button class="blue" onclick="setColor('blue');"></button>
+      <button class="yellow" onclick="setColor('yellow');"></button>
+    </div>
+  </body>
+
+  <script type="text/javascript" src="script.js"></script>
+</html>
